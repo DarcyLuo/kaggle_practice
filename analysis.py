@@ -55,13 +55,19 @@ plt.ylabel("Frequency")
 plt.title("Distribution of Headline Lengths")
 plt.show()
 
-#Observing the graph, we the length of the headlines reaches its highest number between 40-50, and the number
+#Observing the graph, we see the length of the headlines reaches its highest number between 40-50, and the number
 #suddenly drops after 50. 
 
 #lets plot with headline_wordcount
 
+plt.figure()
+plt.hist(df["headline_word_count"], bins=50)
+plt.xlabel("Headline Word Count")
+plt.ylabel("Frequency")
+plt.title("Distribution of Headline Word Count")
+plt.show()
 
-
+#Observing the graph, 
 
 
 
